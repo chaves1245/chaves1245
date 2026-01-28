@@ -1,4 +1,79 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Corpo */
 body {
-  background: red !important;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f8fafc;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Título */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Menu */
+nav {
+  margin-bottom: 30px;
+}
+
+nav button {
+  margin: 6px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  border: none;
+  background: #22c55e;
+  color: #052e16;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  background: #16a34a;
   color: white;
+}
+
+/* Formulários */
+form {
+  background: #020617;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* Botão submit */
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 999px;
+  border: none;
+  background: #22c55e;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #16a34a;
 }
