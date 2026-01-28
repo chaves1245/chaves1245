@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Site</title>
+</head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  nav button {
+    margin: 5px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background: #22c55e;
+    font-weight: bold;
+  }
+
+  input {
+    padding: 10px;
+    width: 230px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<body>
+
+<h1>🚀 Meu primeiro site</h1>
+
+<button onclick="mostrarHome()">Home</button>
+<button onclick="mostrarCadastro()">Cadastro</button>
+<button onclick="mostrarLogin()">Login</button>
+
+<hr>
+
+<div id="home">
+  <p>Bem-vindo ao site.</p>
+</div>
+
+<div id="cadastro" style="display:none">
+  <h2>Cadastro</h2>
+  <input id="cadUser" placeholder="Usuário"><br><br>
+  <input id="cadSenha" type="password" placeholder="Senha"><br><br>
+  <button onclick="cadastrar()">Cadastrar</button>
+  <p id="msgCadastro"></p>
+</div>
+
+<div id="login" style="display:none">
+  <h2>Login</h2>
+  <input id="loginUser" placeholder="Usuário"><br><br>
+  <input id="loginSenha" type="password" placeholder="Senha"><br><br>
+  <button onclick="logar()">Entrar</button>
+  <p id="msgLogin"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
