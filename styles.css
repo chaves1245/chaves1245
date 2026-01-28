@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  background: #22c55e;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+}
