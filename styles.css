@@ -84,3 +84,11 @@ form button:hover {
   margin: 20px auto;
   display: block;
 }
+.container {
+  background: #020617;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 420px;
+  margin: auto;
+  box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
